@@ -197,11 +197,20 @@ public class trabFinal {
 			else if (opcao==6) {
 				System.out.printf("A porcentagem de clientes tipo 2 é de: %.1f%% %n", porcentagemTipo2);
 			}
+			// opção 7
+			else if (opcao==7) {
+				System.out.println("FIM DO PROGRAMA!");
+			}
+			// opção invalida
+			else {
+				System.out.println("Opção invalida tente novamente!");
+				
+			}
 			
 		} while (opcao!=7);
 		
-		// opção 7
-		System.out.println("FIM DO PROGRAMA!");
+	
+		
 		sc.close();
 		
 	}
